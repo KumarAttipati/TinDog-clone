@@ -1,0 +1,381 @@
+/* navbar starts here */
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.container-padding{
+    padding: 7% 15%;
+}
+
+#nav .navbar-padding-bgcolor {
+  padding-top:3%;
+  background-color: #ff4c68;
+}
+
+.navbrand-font {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-link-font {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav-link-padding-margin {
+  padding: 8px;
+  margin-left: 30px;
+}
+
+/* navbar ends here */
+/* title starts here */
+#title {
+  background-color: #ff4c68;
+  position: relative;
+}
+
+.container-padding{
+    padding: 7% 15%;
+}
+
+#title .container-padding{
+   padding-top:3%;
+   padding-bottom:4.3%;
+}
+.title-h1 {
+  font-family: "Poppins";
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.title-btn-padding-margin {
+  padding: 8px 16px;
+  margin: 47px 28px 47px 0;
+  font-size: 1.25rem;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.title-row-img {
+  position: relative;
+}
+
+.title-img {
+  width: 62%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 60px;
+}
+
+/* title ends here */
+/* features starts here */
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-col-padding {
+  padding: 5%;
+}
+
+.features-i-font-color-margin {
+  font-size: 5.2rem;
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+
+.features-h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.features-p {
+  font-size: 1.05rem;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.features-center-elements {
+  text-align: center;
+}
+
+/* features ends here */
+/* review starts here */
+
+.review-bg-color {
+  background-color: #ef8172;
+}
+
+.review-center-elements {
+  text-align: center;
+}
+
+.review-h3 {
+  font-family: "Ubuntu";
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.review-img {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.review-em {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* review end here */
+/* brand section starts here*/
+#brand {
+  background-color: #ef8172;
+}
+
+#brand .container-padding{
+  padding-top:3%;
+}
+
+.brand-img {
+  width: 20%;
+  margin: 20px;
+}
+
+/* pricing starts here */
+#Pricing {
+  padding: 5% 0 10% 0;
+}
+
+.pricing-font-center {
+  text-align: center;
+  padding: 25px;
+}
+
+.pricing-font-center-elements {
+  text-align: center;
+}
+
+.pricing-h3 {
+  font-family: "Poppins";
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.pricing-p {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.pricing-h3-card {
+  font-family: "Poppins";
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.pricing-p-body {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.pricing-padding-radius {
+  font-family: "Poppins";
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+/* pricing ends here */
+/* download starts here */
+#download {
+  background-color: #ff4c68;
+
+}
+
+.download-h1 {
+  font-family: "Poppins";
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.download-center {
+  text-align: center;
+}
+
+.download-padmargin-font {
+  padding: 8px 16px;
+  margin: 47px 28px 47px 0;
+  font-size: 1.25rem;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+/* download ends here */
+/* footer starts here */
+#footer .footer-padding-top{
+  padding-top:0;
+}
+
+.footer-icons {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.footer-i-size {
+  font-size: 35px;
+}
+
+.footer-color-padding {
+  padding: 25px;
+  color: #000;
+}
+
+.footer-details-font {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer-details {
+  text-align: center;
+}
+
+.footer-details-a {
+  text-decoration: none;
+}
+
+.footer-color-padding:hover {
+  color: #ef8172;
+}
+
+/* media query */
+/* title media  */
+@media (max-width: 990px) {
+  /* title */
+  #title .centering-elements{
+    text-align:center;
+  }
+
+  .title-img{
+    position:relative;
+    left:0;
+    width:60%;
+    transform:rotate(0)
+  }
+
+  @media (max-width: 590px) {
+    #title .title-h1{
+      font-size:2.5rem;
+    }
+  }
+
+  @media (max-width: 555px) {
+    #title .title-btn-padding-margin{
+      margin-right:0;
+      padding:0.5rem;
+    }
+  }
+
+  /* review media */
+
+@media (max-width: 650px) {
+    #carouselExampleControls .review-h3{
+      font-size: 2rem;
+    }
+}
+@media (max-width: 560px) {
+    #carouselExampleControls .review-h3{
+      font-size: 1.8rem;
+    }
+}
+@media (max-width: 510px) {
+    #carouselExampleControls .review-h3{
+      font-size: 1.5rem;
+    }
+}
+
+  /* brand media*/
+
+  #brand .brand-img{
+    width:18%;
+  }
+}
+
+@media (max-width: 900px) {
+  #brand .brand-img{
+    width:16%;
+  }
+}
+
+@media (max-width: 700px) {
+  #brand .container-padding {
+    padding:3% 12%;
+  }
+}
+
+@media (max-width: 680px) {
+  #brand .container-padding {
+    padding:3% 8%;
+  }
+}
+@media (max-width: 590px) {
+  #brand .container-padding {
+    padding:3% 5%;
+  }
+}
+@media (max-width: 552px) {
+  #brand .container-padding {
+    padding:3% 2%;
+  }
+}
+
+@media (max-width: 520px) {
+  #brand .container-padding {
+    padding:3% 2%;
+  }
+}
+@media (max-width: 520px) {
+  #brand .container-padding {
+    padding:3% 2px;
+  }
+}
+
+/* download media */
+ @media (max-width: 700px) {
+   #download .download-h1 {
+     font-size:3rem;
+   }
+ }
+ @media (max-width: 600px) {
+   #download .download-h1 {
+     font-size:2.8rem;
+   }
+ }
+ @media (max-width: 570px) {
+   #download .download-h1 {
+     font-size:2.5rem;
+   }
+ }
+ @media (max-width: 516px) {
+   #download .download-h1 {
+     font-size:2.2rem;
+   }
+   .download-padmargin-font{
+     margin-top:20px;
+     margin-bottom: 20px;
+   }
+ }
